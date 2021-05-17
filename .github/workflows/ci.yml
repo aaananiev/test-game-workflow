@@ -21,6 +21,8 @@ jobs:
            if: failure()
            run: |
              git status
+             git config --global user.email "my-bot@bot.com"
+             git config --global user.name "my-bot"
              git add -A
              git commit -m "Formating code"
              git push
