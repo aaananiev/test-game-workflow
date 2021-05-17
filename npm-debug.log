@@ -24,31 +24,31 @@
 8 silly mapToRegistry uri https://registry.npmjs.org/mws.components
 9 verbose request uri https://registry.npmjs.org/mws.components
 10 verbose request no auth needed
-11 info attempt registry request try #1 at 6:19:56 PM
-12 verbose request id 37ec01e9a4f94e3e
+11 info attempt registry request try #1 at 6:21:28 PM
+12 verbose request id 85178fe10542c4b8
 13 http request GET https://registry.npmjs.org/mws.components
 14 http 404 https://registry.npmjs.org/mws.components
-15 verbose headers { date: 'Mon, 17 May 2021 15:19:57 GMT',
+15 verbose headers { date: 'Mon, 17 May 2021 15:21:29 GMT',
 15 verbose headers   'content-type': 'application/json',
 15 verbose headers   'content-length': '21',
 15 verbose headers   connection: 'keep-alive',
-15 verbose headers   'cf-ray': '650dd3b53ed70c4c-SOF',
-15 verbose headers   age: '7',
+15 verbose headers   'cf-ray': '650dd5f618741c27-SOF',
+15 verbose headers   age: '99',
 15 verbose headers   vary: 'Accept-Encoding',
 15 verbose headers   'cf-cache-status': 'HIT',
-15 verbose headers   'cf-request-id': '0a1c82a53f00000c4cc6a54000000001',
+15 verbose headers   'cf-request-id': '0a1c840dce00001c278537f000000001',
 15 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 15 verbose headers   server: 'cloudflare' }
 16 silly get cb [ 404,
-16 silly get   { date: 'Mon, 17 May 2021 15:19:57 GMT',
+16 silly get   { date: 'Mon, 17 May 2021 15:21:29 GMT',
 16 silly get     'content-type': 'application/json',
 16 silly get     'content-length': '21',
 16 silly get     connection: 'keep-alive',
-16 silly get     'cf-ray': '650dd3b53ed70c4c-SOF',
-16 silly get     age: '7',
+16 silly get     'cf-ray': '650dd5f618741c27-SOF',
+16 silly get     age: '99',
 16 silly get     vary: 'Accept-Encoding',
 16 silly get     'cf-cache-status': 'HIT',
-16 silly get     'cf-request-id': '0a1c82a53f00000c4cc6a54000000001',
+16 silly get     'cf-request-id': '0a1c840dce00001c278537f000000001',
 16 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 16 silly get     server: 'cloudflare' } ]
 17 verbose stack Error: Not found : mws.components
