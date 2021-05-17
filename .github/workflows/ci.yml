@@ -15,7 +15,7 @@ jobs:
          - name: Check code formatting
            run: |
              git status
-             npm run format:check
+             #npm run format:check
          - name: Format code
            if: failure()
            run: npm run format
