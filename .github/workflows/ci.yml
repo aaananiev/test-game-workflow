@@ -7,13 +7,17 @@ jobs:
        runs-on: ubuntu-latest
        steps:
          - uses: actions/checkout@v2
-         - name: Code checks
+         - name: Install node modules
            uses: actions/setup-node@v1
            with:
              node-version: "12.x"
-         - run: npm install 
-         - run: npm run format
-         - run: npm run format:check
-         - run: echo "Run Jenkins Test Build"
+         - run: npm install
+         - name: Check code formatting
+           run: npm run format:check
+         - name: Format code
+           if: failure()
+           run: npm run format
+         - name: Trigger MWS jenkins test build  
+           run: echo "Run Jenkins Test Build"
            env:
              CI: true
