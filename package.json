@@ -19,7 +19,7 @@
     "buildDemo": "webpack -p --env.order=66",
     "build-prod": "webpack -p --env.release=true",
     "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json}\"",
-    "format": "prettier --write \"**/*.{js,jsx,yml,yaml,json}\""  
+    "format": "prettier --write \"**/*.{js,jsx,yml,yaml,json}\""
   },
   "repository": {
     "type": "git"
@@ -28,8 +28,8 @@
   "license": "ISC",
   "dependencies": {
     "@pixi/unsafe-eval": "5.3.0",
-    "mws": "git+https://$GITHUB_ACTOR:${{secrets.TOKEN}}@github.com:camelotls/iwg-framework.git#iwg-8470",
-    "mws.components": "git+https://$GITHUB_ACTOR:${{secrets.TOKEN}}@github.com:camelotls/iwg-framework-components.git#iwg-6902",
+    "mws": "git+ssh://git@git.mdev.mobilewaves.com:iwg/framework-2.git#iwg-8470",
+    "mws.components": "git+ssh://git@git.mdev.mobilewaves.com:iwg/framework-2-components.git#iwg-6902",
     "pixi-filters": "3.1.1",
     "pixi-particles": "4.2.1",
     "pixi-spine": "2.1.9",
