@@ -18,7 +18,8 @@
     "buildMagic": "webpack -c",
     "buildDemo": "webpack -p --env.order=66",
     "build-prod": "webpack -p --env.release=true",
-    "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json}\""
+    "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json}\"",
+    "format": "prettier --write \"**/*.{js,jsx,yml,yaml,json}\""  
   },
   "repository": {
     "type": "git"
