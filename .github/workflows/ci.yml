@@ -18,6 +18,7 @@ jobs:
            if: failure()
            run: npm run format
          - name: Push formated code
+           if: failure()
            run: |
              git status
              git add -A
