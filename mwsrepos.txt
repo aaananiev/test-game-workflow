@@ -1,5 +1,0 @@
-"mws": "git+https://$GITHUB_ACTOR:${{secrets.TOKEN}}@github.com:camelotls/iwg-framework.git#iwg-8470",
-"mws.components": "git+https://$GITHUB_ACTOR:${{secrets.TOKEN}}@github.com:camelotls/iwg-framework-components.git#iwg-6902",
-
-"mws": "git+ssh://git@git.mdev.mobilewaves.com:iwg/framework-2.git#iwg-8470",
-"mws.components": "git+ssh://git@git.mdev.mobilewaves.com:iwg/framework-2-components.git#iwg-6902",

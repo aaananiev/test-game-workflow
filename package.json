@@ -1,59 +1,38 @@
 {
-  "name": "stpatrickscelebration",
-  "gameFolder": "stpatrickscelebration",
-  "version": "1.0.3",
-  "description": "stpatrickscelebration",
-  "main": "index.js",
-  "config": "src/config.js",
-  "cfg_value": {
-    "languages": [
-      "en"
-    ]
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -c",
-    "live": "webpack -c -w",
-    "release": "npm run build & webpack --env.release=true & node zip-build.js",
-    "buildMagic": "webpack -c",
-    "buildDemo": "webpack -p --env.order=66",
-    "build-prod": "webpack -p --env.release=true",
-    "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json}\"",
-    "format": "prettier --write \"**/*.{js,jsx,yml,yaml,json}\""
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@pixi/unsafe-eval": "5.3.0",
-    "pixi-filters": "3.1.1",
-    "pixi-particles": "4.2.1",
-    "pixi-spine": "2.1.9",
-    "pixi.js-legacy": "5.3.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "7.10.5",
-    "@babel/core": "7.10.5",
-    "@babel/node": "7.10.5",
-    "@babel/plugin-transform-for-of": "7.10.4",
-    "@babel/plugin-transform-modules-commonjs": "7.10.4",
-    "@babel/preset-env": "7.10.4",
-    "@babel/preset-react": "7.10.4",
-    "@babel/register": "7.10.5",
-    "babel-loader": "8.1.0",
-    "babel-plugin-transform-remove-console": "6.9.4",
-    "child_process": "1.0.2",
-    "clean-webpack-plugin": "3.0.0",
-    "copy-webpack-plugin": "6.0.3",
-    "html-webpack-plugin": "4.3.0",
-    "prettier": "2.3.0",
-    "script-loader": "0.7.2",
-    "terser": "4.8.0",
-    "terser-webpack-plugin": "3.0.7",
-    "webpack": "4.43.0",
-    "webpack-cli": "3.3.12",
-    "webpack-livereload-plugin": "2.3.0"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
