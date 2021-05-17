@@ -1,0 +1,46 @@
+{"frames": {
+
+"Play.png":
+{
+	"frame": {"x":353,"y":1,"w":270,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":41,"w":270,"h":87},
+	"sourceSize": {"w":348,"h":160}
+},
+"PLI_StP_Asset_36.png":
+{
+	"frame": {"x":625,"y":1,"w":256,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":40,"w":256,"h":83},
+	"sourceSize": {"w":330,"h":152}
+},
+"Prize.png":
+{
+	"frame": {"x":883,"y":1,"w":114,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":7,"w":114,"h":46},
+	"sourceSize": {"w":126,"h":55}
+},
+"Tripler.png":
+{
+	"frame": {"x":1,"y":1,"w":350,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":33,"w":350,"h":99},
+	"sourceSize": {"w":466,"h":154}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "buttons.png",
+	"format": "RGBA8888",
+	"size": {"w":998,"h":101},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:59b5cb97fdc90dee49b286e7a671c230:2cef0f7d474cc1aa74ec05ec7c0d29a5:b34c8670b11bb20cb1751a70d3683e22$"
+}
+}

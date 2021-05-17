@@ -1,0 +1,22 @@
+st-patricks-celebration
+Version 1.0.3
+Developed by Mobile Wave Solutions Ltd.
+office@mobilewaves.com
+
+Version 1.0.3
+
+ - [IWG-11429] Resolve issue with changing texture 
+ - [IWG-11428] Ensures that exit animation is not interrupted 
+
+Version 1.0.2
+
+ - IWG-10749 - Fix game resize issue and packages update  
+
+Version 1.0.1
+- [IWG-8409] - Adjusts game time to reach 31 seconds on some mobile devices
+- [IWG-8611] - Moves instructions panel to correct layer
+- [IWG-8610] - Retrieves proper server game config
+- [IWG-8609] - Resolves issue with audio on some mobile devices
+
+Version 1.0.0
+- Initial game release

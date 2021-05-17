@@ -1,0 +1,188 @@
+{
+  "prize_tiers": [
+    {
+      "odds": { "number_of_tickets": 1 },
+      "prizes": [ { "cash": 3000000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 1 },
+      "prizes": [ { "cash": 3000000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 3 },
+      "prizes": [ { "cash": 1000000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 6 },
+      "prizes": [ { "cash": 100000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 15 },
+      "prizes": [ { "cash": 20000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 15 },
+      "prizes": [ { "cash": 20000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 75 },
+      "prizes": [ { "cash": 15000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 150 },
+      "prizes": [ { "cash": 10000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 150 },
+      "prizes": [ { "cash": 10000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 150 },
+      "prizes": [ { "cash": 9000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 150 },
+      "prizes": [ { "cash": 9000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 300 },
+      "prizes": [ { "cash": 5000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 300 },
+      "prizes": [ { "cash": 5000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 375 },
+      "prizes": [ { "cash": 4500 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 375 },
+      "prizes": [ { "cash": 4500 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 1500 },
+      "prizes": [ { "cash": 3000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 1500 },
+      "prizes": [ { "cash": 3000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 1500 },
+      "prizes": [ { "cash": 2000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 1500 },
+      "prizes": [ { "cash": 2000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 1500 },
+      "prizes": [ { "cash": 2000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 3061 },
+      "prizes": [ { "cash": 1800 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 3061 },
+      "prizes": [ { "cash": 1800 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 7500 },
+      "prizes": [ { "cash": 1500 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 7500 },
+      "prizes": [ { "cash": 1500 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 7500 },
+      "prizes": [ { "cash": 1000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 7500 },
+      "prizes": [ { "cash": 1000 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 10000 },
+      "prizes": [ { "cash": 900 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 10000 },
+      "prizes": [ { "cash": 900 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 10000 },
+      "prizes": [ { "cash": 900 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 37500 },
+      "prizes": [ { "cash": 600 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 37500 },
+      "prizes": [ { "cash": 600 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 125000 },
+      "prizes": [ { "cash": 500 } ]
+    },
+    {
+      "odds": { "number_of_tickets": 241935 },
+      "prizes": [ { "cash": 300 } ]
+    }
+  ],
+  "odds": {
+    "total_number_of_tickets": 1500000
+  },
+  "prize_combinations": {
+    "300": [[300]],
+    "500": [[500]],
+    "600": [[600], [300, 300]],
+    "900": [[900],[{"value": 300, "multiplier": 3}], [600, 300]],
+    "1000": [[1000], [500, 500]],
+    "1500": [[1500], [{"value": 500, "multiplier": 3}]],
+    "1800": [[{"value": 600, "multiplier": 3}], [
+      {"value": 300, "multiplier": 3},
+      {"value": 300, "multiplier": 3}
+    ]],
+    "2000": [[2000], [1500, 500], [300, 300, 300, 300, 300, 500]],
+    "3000": [[3000], [{"value": 1000, "multiplier": 3}]],
+    "4500": [[
+      {"value": 1500, "multiplier": 3}
+    ], [
+      {"value": 300, "multiplier": 3},
+      {"value": 300, "multiplier": 3},
+      {"value": 300, "multiplier": 3},
+      {"value": 300, "multiplier": 3},
+      {"value": 300, "multiplier": 3}
+    ]],
+    "5000": [[5000], [500, 500, 500, 500, 500, 500, 500, 500, 1000]],
+    "9000": [[
+      {"value": 1000, "multiplier": 3},
+      {"value": 1000, "multiplier": 3},
+      {"value": 1000, "multiplier": 3}
+    ], [
+      {"value": 500, "multiplier": 3},
+      {"value": 500, "multiplier": 3},
+      {"value": 500, "multiplier": 3},
+      {"value": 500, "multiplier": 3},
+      {"value": 500, "multiplier": 3},
+      {"value": 500, "multiplier": 3}
+    ]],
+    "10000": [[10000], [500, 500, 1000, 1000, 5000, 2000]],
+    "15000": [[
+      {"value": 1000, "multiplier": 3},
+      {"value": 1000, "multiplier": 3},
+      {"value": 1000, "multiplier": 3},
+      {"value": 1000, "multiplier": 3},
+      {"value": 1000, "multiplier": 3}
+    ]],
+    "20000": [[20000], [1000, 1000, 2000, 2000, 2000, 2000, 10000]],
+    "100000": [[100000]],
+    "1000000": [[1000000]],
+    "3000000": [[3000000], [{"value": 1000000, "multiplier": 3}]]
+  },
+  "price": 300
+}

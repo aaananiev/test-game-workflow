@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css" />
+</head>
+<style type="text/css">
+  canvas { position: absolute; top: 0; left: 0; z-index: -1; background:red url(/st-patricks-celebration/dist/images/flags.png); }
+canvas + canvas { opacity: 0.3; z-index: -2; }
+
+</style>
+<body>
+	<canvas id="cloth">Error: HTML5 is not supported by your browser.</canvas>
+	<canvas id="game-canvas">Error: HTML5 is not supported by your browser.</canvas>
+	<script type="text/javascript" src="bundle.js"></script>
+	<script type="application/json" id="game-configuration">
+	{
+		"winningPrizeIndex": 0,
+		"playMode":"NORMAL",
+		"customerId":"loro",
+		"gameVersion":"0-1-86",
+		"gameId":"blue250k",
+		"seed":123129038123
+	}
+	</script>
+	<script src="http://127.0.0.1:35729/livereload.js"></script>
+</body>
+</html>
