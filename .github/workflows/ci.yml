@@ -28,8 +28,6 @@ jobs:
              git add -A
              git commit -m "Formating code"
              git push
-         - name: Rerun Check code formatting
-           run: npm run format:check
          - name: Trigger MWS jenkins test build  
            run: echo "Run Jenkins Test Build"
            env:
