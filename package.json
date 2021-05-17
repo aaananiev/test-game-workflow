@@ -27,7 +27,8 @@
   "license": "ISC",
   "dependencies": {
     "@pixi/unsafe-eval": "5.3.0",
-    
+    "mws": "git+https://$GITHUB_ACTOR:${{secrets.TOKEN}}@github.com:camelotls/iwg-framework-components.git#iwg-8470",
+    "mws.components": "git+ssh://git@git.mdev.mobilewaves.com:iwg/framework-2-components.git#iwg-6902",
     "pixi-filters": "3.1.1",
     "pixi-particles": "4.2.1",
     "pixi-spine": "2.1.9",
