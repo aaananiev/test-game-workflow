@@ -38,7 +38,7 @@ jobs:
       - name: ZIP Assets
         run: |
           zip -r build.zip ./build
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'  
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
       - name: Create a Release
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: npx semantic-release
