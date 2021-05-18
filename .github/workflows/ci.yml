@@ -29,6 +29,11 @@ jobs:
       - name: Build Project
         if: github.event_name == 'push'
         run: npm run build
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: build
+          path: build  
       - name: Deploy to staging
         if: github.event_name == 'push'
         run: npx surge --project ./build --domain ethereal-tank.surge.sh
