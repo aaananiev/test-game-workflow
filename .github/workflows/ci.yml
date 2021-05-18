@@ -11,9 +11,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - run: npm install
-      - run: npm i -dev jest-circus
+      - run: npm ci
+      #- run: npm i -dev jest-circus
       - run: npm run format:check
-      - run: npm test -- --coverage
+      #- run: npm test -- --coverage
         env:
           CI: true
