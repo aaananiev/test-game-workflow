@@ -12,9 +12,9 @@ jobs:
         with:
           node-version: "12.x"
       - run: npm ci
-      - run: npm install -g jest-circus
+      #- run: npm install -g jest-circus
       - run: npm run format:check
-      - run: npm test -- --coverage
+        #- run: npm test -- --coverage
         env:
           CI: true
       - name: Build Project
