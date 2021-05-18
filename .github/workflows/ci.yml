@@ -3,32 +3,15 @@ on:
   pull_request:
     branches: [dev]
 jobs:
-     test-build:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: actions/checkout@v2
-         - name: Install node modules
-           uses: actions/setup-node@v1
-           with:
-             node-version: "12.x"
-         - run: npm install
-         - name: Check code formatting
-           run: |
-             git status
-             #npm run format:check
-         - name: Format code
-           if: failure()
-           run: npm run format
-         - name: Push formated code
-           if: failure()
-           run: |
-             git status
-             git config --global user.email "my-bot@bot.com"
-             git config --global user.name "my-bot"
-             git add -A
-             git commit -m "Formating code"
-             git push
-         - name: Trigger MWS jenkins test build  
-           run: echo "Run Jenkins Test Build"
-           env:
-             CI: true
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use node JS
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - run: npm ci
+      - run: npm run format:check
+        env:
+          CI: true
