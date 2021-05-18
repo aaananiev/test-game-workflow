@@ -12,6 +12,7 @@ jobs:
         with:
           node-version: "12.x"
       - run: npm install
+      - run: npm i -dev jest-circus
       - run: npm run format:check
       - run: npm test -- --coverage
         env:
