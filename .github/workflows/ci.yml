@@ -12,8 +12,19 @@ jobs:
         with:
           node-version: "12.x"
       - run: npm ci
-      #- run: npm i -dev jest-circus
+      - run: npm install -g jest-circus
       - run: npm run format:check
-        #- run: npm test -- --coverage
+      - run: npm test -- --coverage
         env:
           CI: true
+      - name: Build Project
+        if: github.event_name == 'push'
+        run: npm run build
+      - name: Deploy to staging
+        if: github.event_name == 'push'
+        run: npx surge --project ./build --domain ethereal-tank.surge.sh
+        env:
+          SURGE_LOGIN: ${{secrets.SURGE_LOGIN}}
+          SURGE_TOKEN: ${{secrets.SURGE_TOKEN}}
+
+
